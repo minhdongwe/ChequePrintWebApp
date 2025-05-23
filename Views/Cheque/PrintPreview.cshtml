@@ -1,0 +1,27 @@
+﻿@model ChequeViewModel
+
+@using System.Globalization
+@using ChequePrintWebApp.Data
+
+@{
+    var datePos = LayoutSettings.Positions.FirstOrDefault(p => p.FieldName == "Date");
+    var namePos = LayoutSettings.Positions.FirstOrDefault(p => p.FieldName == "PayeeName");
+    var wordsPos = LayoutSettings.Positions.FirstOrDefault(p => p.FieldName == "AmountInWords");
+    var amountPos = LayoutSettings.Positions.FirstOrDefault(p => p.FieldName == "AmountNumeric");
+    var accountPos = LayoutSettings.Positions.FirstOrDefault(p => p.FieldName == "AccountNumber");
+}
+
+
+<link rel="stylesheet" href="~/css/Cheque_Print.css" />
+
+<div class="cheque-layout">
+    <div class="date" style="top:@datePos?.Top; right:@datePos?.Right">@Model.CurrentDate.ToString("ddMMyyyy")</div>
+    <div class="payee-name" style="top:@namePos?.Top; left:@namePos?.Left">@Model.Name P.No. @Model.PersonalNumber</div>
+    <div class="account-number" style="top:@accountPos?.Top; left:@accountPos?.Left">@Model.BankAccountNumber</div>
+    <div class="amount-numeric" style="top:@amountPos?.Top; right:@amountPos?.Right">@Model.Amount.ToString("N2")</div>
+    <div class="amount-words" style="top:@wordsPos?.Top; left:@wordsPos?.Left">@Model.AmountInWords</div>
+</div>
+
+<div class="print-button" style="text-align:center; margin-top:30px;">
+    <button onclick="window.print()">Print</button>
+</div>

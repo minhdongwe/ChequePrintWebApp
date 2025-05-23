@@ -1,0 +1,22 @@
+﻿@model ChequeViewModel
+
+
+
+<form asp-action="SaveCheque" method="post">
+    <label>Enter Personal Number:</label>
+    <input type="text" name="personalNumber" asp-for="PersonalNumber" required class="form-control" />
+    <span asp-validation-for="PersonalNumber" class="text-danger"></span>
+
+    <label>Enter Amount:</label>
+    <input type="number" asp-for="Amount" name="amount" step="0.01" required class="form-control" />
+    <span asp-validation-for="Amount" class="text-danger"></span>
+
+    <button type="submit" class="btn btn-primary mt-2">Generate Cheque</button>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+

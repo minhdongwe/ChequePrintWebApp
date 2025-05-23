@@ -1,0 +1,131 @@
+﻿@model PFViewModel
+
+<form asp-action="Index" method="post">
+    <div class="form-group">
+        <label>Personal Number</label>
+        <input asp-for="PersonalNumber" class="form-control" id="personalNumber" />
+        <span asp-validation-for="PersonalNumber" class="text-danger"></span>
+        <button type="button" class="btn btn-sm btn-secondary mt-2" id="fetchBtn">Fetch Details</button>
+    </div>
+
+    <div class="form-group">
+        <label>Employee Name</label>
+        <input asp-for="EmployeeName" class="form-control" id="employeeName" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>PF Member Contribution</label>
+        <input asp-for="PFMemberContribution" class="form-control" readonly id="member" />
+    </div>
+
+    <div class="form-group">
+        <label>PF Employer Contribution</label>
+        <input asp-for="PFEmployerContribution" class="form-control" readonly id="employer" />
+    </div>
+
+    <div class="form-group">
+        <label>Total</label>
+        <input type="text" id="total" class="form-control" readonly
+               value="@(Model.Total.ToString("N2"))" />
+    </div>
+
+    <div class="form-group">
+        <label>Payroll Deduction</label>
+        <input asp-for="PayrollDeduction" class="form-control" id="deduction" />
+        <span asp-validation-for="PayrollDeduction" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Grand Total</label>
+        <input type="text" id="grandTotal" class="form-control" readonly
+               value="@(Model.GrandTotal.ToString("N2"))" />
+    </div>
+
+    @* <button type="submit" class="btn btn-primary">Calculate</button>
+ *@   
+    <a href="#" class="btn btn-success mt-3" id="generateChequeBtn">Generate Cheque</a>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const fetchBtn = document.getElementById('fetchBtn');
+            const personalNumberInput = document.getElementById('personalNumber');
+            const employeeNameInput = document.getElementById('employeeName');
+            const memberInput = document.getElementById('member');
+            const employerInput = document.getElementById('employer');
+            const totalInput = document.getElementById('total');
+            const deductionInput = document.getElementById('deduction');
+            const grandTotalInput = document.getElementById('grandTotal');
+
+            if (fetchBtn) {
+                fetchBtn.addEventListener('click', function () {
+                    const pno = personalNumberInput.value;
+
+                    if (pno.length === 6) {
+                        fetch(`/PF/GetByPersonalNumber?personalNumber=${pno}`)
+                            .then(response => response.json())
+                            .then(data => {
+                                 console.log("Fetched data:", data);
+                                if (data) {
+                                    employeeNameInput.value = data.employeeName;
+                                    memberInput.value = data.pfMemberContribution;
+                                    employerInput.value = data.pfEmployerContribution;
+                                    totalInput.value = data.total.toFixed(2);
+                                    calculateGrandTotal();
+                                } else {
+                                    clearFields();
+                                    alert("❌ Personal Number not found in record!");
+                                }
+                            });
+                    } else {
+                        alert("⚠️ Please enter a valid 6-digit Personal Number.");
+                    }
+                });
+            }
+
+            function calculateGrandTotal() {
+                const member = parseFloat(memberInput.value) || 0;
+                const employer = parseFloat(employerInput.value) || 0;
+                const deduction = parseFloat(deductionInput.value) || 0;
+
+                const total = member + employer;
+                const grand = total - deduction;
+
+                totalInput.value = total.toFixed(2);
+                grandTotalInput.value = grand.toFixed(2);
+            }
+
+            if (deductionInput) {
+                deductionInput.addEventListener('input', calculateGrandTotal);
+            }
+
+            function clearFields() {
+                employeeNameInput.value = '';
+                memberInput.value = '';
+                employerInput.value = '';
+                totalInput.value = '';
+                grandTotalInput.value = '';
+            }
+        });
+
+         document.getElementById("generateChequeBtn").addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const personalNumber = document.getElementById("personalNumber").value;
+            const grandTotal = document.getElementById("grandTotal").value;
+
+            if (personalNumber.length === 6 && grandTotal) {
+                        const url = `/Cheque/CreateFromPF?personalNumber=${encodeURIComponent(personalNumber)}&amount=${encodeURIComponent(grandTotal)}`;
+                window.location.href = url;
+            } else {
+                alert("Please fetch PF details and ensure Grand Total is available.");
+            }
+        });
+    </script>
+
+    }
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ChequePrintWebApp.props" />
+</Project>

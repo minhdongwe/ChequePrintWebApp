@@ -1,0 +1,70 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 14pt;
+}
+
+
+.date {
+    position: absolute;
+    top: 1.3cm;
+    right: 1.5cm;
+    letter-spacing: 0.2cm;
+}
+
+.payee-name {
+    position: absolute;
+    top: 2cm;
+    left: 1cm;
+}
+
+.account-number {
+    position: absolute;
+    top: 2.4cm;
+    left: 1cm;
+}
+
+.amount-words {
+    position: absolute;
+    top: 3.1cm;
+    left: 1cm;
+    width: 12cm; /* limit width */
+    white-space: normal; /* allow wrapping */
+    word-wrap: break-word; /* break long words if needed */
+    line-height: 1.2em;
+}
+
+.amount-numeric {
+    position: absolute;
+    top: 3.1cm;
+    right: 2cm;
+}
+
+p{
+    font-size:10pt;
+}
+
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .cheque-layout {
+        background-image: url('/image/cheque-background.jpeg') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .print-button {
+        display: none;
+    }
+
+    .print-hide{
+        display: none !important; 
+    }
+}
+
