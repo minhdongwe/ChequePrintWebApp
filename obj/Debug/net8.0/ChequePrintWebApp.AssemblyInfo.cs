@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChequePrintWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75dedca0ba3f8b92e5fbf5b95d1d39b92f1c4d5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChequePrintWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChequePrintWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

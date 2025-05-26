@@ -1,0 +1,31 @@
+﻿# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+.vs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
+
+# NuGet packages
+*.nupkg
+
+# App Data (remove sensitive local storage)
+App_Data/history.json
+
+# Excel sample files - ignore real data
+wwwroot/files/Employees.xlsx
+wwwroot/files/PFFile.xlsx
+
+# EF Core generated DB
+App_Data/*.db
+
+# Environment files (optional)
+.env

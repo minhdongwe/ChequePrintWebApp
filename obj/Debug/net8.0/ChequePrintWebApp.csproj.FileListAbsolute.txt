@@ -43,3 +43,4 @@ E:\AMSTech\DotNetProjects\ChequePrintWebApp\obj\Debug\net8.0\refint\ChequePrintW
 E:\AMSTech\DotNetProjects\ChequePrintWebApp\obj\Debug\net8.0\ChequePrintWebApp.pdb
 E:\AMSTech\DotNetProjects\ChequePrintWebApp\obj\Debug\net8.0\ChequePrintWebApp.genruntimeconfig.cache
 E:\AMSTech\DotNetProjects\ChequePrintWebApp\obj\Debug\net8.0\ref\ChequePrintWebApp.dll
+E:\AMSTech\DotNetProjects\ChequePrintWebApp\obj\Debug\net8.0\ChequePrintWebApp.sourcelink.json

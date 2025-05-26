@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4weiu2mblk</Fingerprint>
-      <Integrity>HJ4PircSnMuOLkGDMrRdcK1ZLrm0iG8mTCsIuHsp03s=</Integrity>
+      <Fingerprint>zapby6tj66</Fingerprint>
+      <Integrity>2x5BXPIYYy9df9g2fl+gAoPx8rQa1j1lgXnhePJi0ts=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Employees.xlsx'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sb71balmmn</Fingerprint>
-      <Integrity>WP5cXSHxZ4ozyktdcs4T5dQbt+fy7r89knrS/uOITfQ=</Integrity>
+      <Fingerprint>wdisoc7p9f</Fingerprint>
+      <Integrity>FMR9dkJXgKs8g0X0KeQNHqCOy38Ya9XDl/6hj8iwa/c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\PFFile1.xlsx'))</OriginalItemSpec>

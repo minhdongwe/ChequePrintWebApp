@@ -2,6 +2,29 @@
 
 <h3>Cheque History</h3>
 <a href="/Cheque/ExportToExcel" class="btn btn-success mb-3">📥 Download Excel</a>
+<form method="get" class="row mb-3">
+    <div class="col-md-3">
+        <input type="text" name="search" value=""
+               class="form-control" placeholder="Search by Name or P.No" />
+    </div>
+    <div class="col-md-3">
+        <input type="date" name="fromDate" value="fromDate"
+               class="form-control" placeholder="From Date" />
+    </div>
+    <div class="col-md-3">
+        <input type="date" name="toDate" value="toDate"
+               class="form-control" placeholder="To Date" />
+    </div>
+    <div class="col-md-3 d-flex gap-2">
+        <button type="submit" class="btn btn-primary">🔍 Filter</button>
+        <a href="/Cheque/History" class="btn btn-secondary">🔄 Reset</a>
+    </div>
+</form>
+
+@if (!Model.Any())
+{
+    <p class="text-danger">❌ No records found for your search.</p>
+}
 
 <table class="table table-bordered">
     <thead>

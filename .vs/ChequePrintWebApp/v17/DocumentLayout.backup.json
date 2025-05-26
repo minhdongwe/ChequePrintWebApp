@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\controllers\\chequecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:controllers\\chequecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\views\\cheque\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:views\\cheque\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\models\\chequehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:models\\chequehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\controllers\\chequecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:controllers\\chequecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\views\\pf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:views\\pf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\views\\cheque\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:views\\cheque\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\views\\pf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:views\\pf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\helper\\jsondatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:helper\\jsondatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\models\\chequehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|solutionrelative:models\\chequehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180BF659-BFBE-4529-8969-50EBB83D554D}|ChequePrintWebApp.csproj|e:\\amstech\\dotnetprojects\\chequeprintwebapp\\views\\cheque\\printpreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,8 +54,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 245,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-05-26T10:12:31.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-26T09:31:29.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsonDataHelper.cs",
+              "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Helper\\JsonDataHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\JsonDataHelper.cs",
+              "ToolTip": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Helper\\JsonDataHelper.cs",
+              "RelativeToolTip": "Helper\\JsonDataHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:02:53.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExcelHelper.cs",
+              "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Helper\\ExcelHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\ExcelHelper.cs",
+              "ToolTip": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Helper\\ExcelHelper.cs",
+              "RelativeToolTip": "Helper\\ExcelHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:24:59.655Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -48,14 +114,13 @@
               "RelativeDocumentMoniker": "Views\\PF\\Index.cshtml",
               "ToolTip": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Views\\PF\\Index.cshtml",
               "RelativeToolTip": "Views\\PF\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAIBJwC0AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T09:30:40.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T09:30:40.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Views\\Cheque\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cheque\\Index.cshtml",
@@ -63,12 +128,11 @@
               "RelativeToolTip": "Views\\Cheque\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T08:13:18.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T08:13:18.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "PrintPreview.cshtml",
               "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Views\\Cheque\\PrintPreview.cshtml",
               "RelativeDocumentMoniker": "Views\\Cheque\\PrintPreview.cshtml",
@@ -76,12 +140,11 @@
               "RelativeToolTip": "Views\\Cheque\\PrintPreview.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T08:13:16.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T08:13:16.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -89,38 +152,35 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T06:41:43.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T06:41:43.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "History.cshtml",
               "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Views\\Cheque\\History.cshtml",
               "RelativeDocumentMoniker": "Views\\Cheque\\History.cshtml",
               "ToolTip": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Views\\Cheque\\History.cshtml",
               "RelativeToolTip": "Views\\Cheque\\History.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T06:35:25.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T06:35:25.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ChequeController.cs",
               "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Controllers\\ChequeController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChequeController.cs",
               "ToolTip": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Controllers\\ChequeController.cs",
               "RelativeToolTip": "Controllers\\ChequeController.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAADwv6QAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAcwJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:31:22.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T06:31:22.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ChequeHistory.cs",
               "DocumentMoniker": "E:\\AMSTech\\DotNetProjects\\ChequePrintWebApp\\Models\\ChequeHistory.cs",
               "RelativeDocumentMoniker": "Models\\ChequeHistory.cs",
@@ -128,8 +188,7 @@
               "RelativeToolTip": "Models\\ChequeHistory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:30:43.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T06:30:43.296Z"
             }
           ]
         }

@@ -11,7 +11,7 @@ namespace ChequePrintWebApp.Controllers
     {
 
         private static List<Employee> _employees;
-        private static List<ChequeHistory> _history = new List<ChequeHistory>();
+        private static List<ChequeHistory> _history;
 
 
         public ChequeController(IWebHostEnvironment env)
@@ -20,6 +20,10 @@ namespace ChequePrintWebApp.Controllers
             {
                 var path = Path.Combine(env.WebRootPath, "files", "Employees.xlsx");
                 _employees = ExcelHelper.LoadEmployees(path);
+            }
+            if (_history == null)
+            {
+                _history = JsonDataHelper.LoadHistory();
             }
         }
 
@@ -119,16 +123,36 @@ namespace ChequePrintWebApp.Controllers
                 AmountInWords = model.AmountInWords,
                 Date = model.CurrentDate
             });
+            JsonDataHelper.SaveHistory(_history);
 
             // Show print view
             return View("PrintPreview", model);
         }
 
 
-        public IActionResult History()
+
+
+        public IActionResult History(string search, DateTime? fromDate, DateTime? toDate)
         {
-            return View(_history.OrderByDescending(h => h.Date).ToList());
+            var history = JsonDataHelper.LoadHistory(); // Or DB if using EF
+
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                search = search.ToLower();
+                history = history
+                    .Where(h => h.PersonalNumber.ToLower().Contains(search) || h.Name.ToLower().Contains(search))
+                    .ToList();
+            }
+
+            if (fromDate.HasValue)
+                history = history.Where(h => h.Date.Date >= fromDate.Value.Date).ToList();
+
+            if (toDate.HasValue)
+                history = history.Where(h => h.Date.Date <= toDate.Value.Date).ToList();
+
+            return View(history.OrderByDescending(h => h.Date).ToList());
         }
+
 
 
         //---Export to Excel--//
